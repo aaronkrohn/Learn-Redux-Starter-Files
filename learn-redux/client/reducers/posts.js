@@ -1,5 +1,5 @@
 function posts(state = [], action){
-  console.log(state, action);
+  // console.log(state, action);
   switch (action.type) {
     case 'INCREMENT_LIKES':
       // return state.map((post, i) => {
